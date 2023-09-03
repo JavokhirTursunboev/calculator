@@ -8,6 +8,7 @@ body {
 }
 .calculator-grid {
   display: grid;
+  justify-content: center;
   margin-top: 2rem;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
@@ -21,8 +22,8 @@ body {
 }
 
 .calculator-grid > button:hover,
-.calculator-grid > button:focus{
-    background-color: rgba(255, 255, 255, 9);
+.calculator-grid > button:focus {
+  background-color: rgba(255, 255, 255, 9);
 }
 .span-two {
   grid-column: span 2;
